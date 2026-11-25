@@ -1,0 +1,56 @@
+:root {
+    --mau-nen-khung: #FFFDE7;
+    --mau-vien-khung: #9E9E9E;
+    --mau-do: #D40000;
+    --mau-hong: #FFD9E6;
+    --mau-xanh: #0033CC;
+    --chieu-rong-khung: 640px;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.khung-tho {
+    width: var(--chieu-rong-khung);
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 24px;
+    background: var(--mau-nen-khung);
+    border: 1px solid var(--mau-vien-khung);
+    text-align: center;
+}
+
+.khung-tho h1 {
+    margin: 0 0 20px;
+    padding: 6px 0;
+    background: var(--mau-hong);
+    color: var(--mau-do);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.kho {
+    margin: 0;
+    font-style: italic;
+    line-height: 1.7;
+}
+
+.xanh {
+    color: var(--mau-xanh);
+}
+
+.do {
+    color: var(--mau-do);
+}
+
+.khung-tho hr {
+    width: 55%;
+    margin: 20px auto;
+    border: none;
+    border-top: 1px solid var(--mau-xanh);
+}
