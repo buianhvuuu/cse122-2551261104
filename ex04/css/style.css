@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.bai-viet {
+    width: 820px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Tiêu đề chính 2 dòng */
+h1 {
+    color: #1565C0;
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 16px;
+    line-height: 1.3;
+}
+
+h1 span {
+    display: block;
+    font-size: 0.7em; /* Nhỏ hơn dòng 1 theo tỷ lệ thông số */
+    margin-top: 4px;
+}
+
+/* Ảnh banner toàn cảnh */
+.anh-banner {
+    width: 100%;
+    height: 280px;
+    max-height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 16px 0;
+    display: block;
+}
+
+/* Đoạn văn bản */
+p {
+    text-align: justify;
+    color: #111111;
+    font-size: 16px;
+    line-height: 1.65;
+    margin: 16px 0;
+}
+
+/* Chữ cái đầu rơi (Drop Cap) màu đỏ */
+p::first-letter {
+    float: left;
+    color: #C62828;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 0.85;
+    padding: 0.1rem 0.35rem 0 0;
+}
+
+/* Thanh tiêu đề phụ nền xanh, chữ trắng, căn phải */
+.tieu-de-phu {
+    background-color: #1565C0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: right;
+    padding: 8px 14px;
+    margin: 22px 0;
+}
