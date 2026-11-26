@@ -1,0 +1,67 @@
+:root {
+    --mau-vang-sang: #C9A227;
+    --mau-vang-dam: #A8861B;
+    --mau-chu: #FFFFFF;
+    --chieu-rong-banner: 820px;
+}
+
+body {
+    margin: 0;
+    padding: 40px 16px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.7;
+}
+
+.banner {
+    width: 100%;
+    max-width: var(--chieu-rong-banner);
+    box-sizing: border-box;
+    padding: 28px 36px;
+    background: linear-gradient(160deg, var(--mau-vang-sang), var(--mau-vang-dam));
+    color: var(--mau-chu);
+    border-radius: 6px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+}
+
+.banner h1 {
+    margin: 0 0 18px;
+    color: var(--mau-chu);
+    font-size: 26px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.banner p {
+    margin: 0 0 14px;
+    text-align: justify;
+}
+
+.anh-noi {
+    float: right;
+    width: 260px;
+    box-sizing: border-box;
+    margin: 0 0 14px 18px;
+    border: 3px solid rgba(255, 255, 255, 0.85);
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 24px 12px;
+    }
+
+    .banner {
+        padding: 20px;
+    }
+
+    .anh-noi {
+        float: none;
+        width: 100%;
+        margin: 0 0 16px;
+    }
+}
