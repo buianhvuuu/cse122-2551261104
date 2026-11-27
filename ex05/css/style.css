@@ -1,0 +1,65 @@
+/* Khung bao ngoài căn giữa trang */
+.khung {
+    width: 750px;
+    margin: 20px auto;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Tiêu đề chính */
+.dong1 h1 {
+    color: #C2185B;
+    font-size: 26px;
+    text-align: center;
+    margin: 0 0 22px;
+}
+
+/* Bố cục lưới 2 cột (Cột trái 220px, cột phải 1fr) */
+.bo-cuc-2-cot {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 24px;
+    align-items: start;
+}
+
+/* Hình ảnh cột trái */
+.anh img {
+    width: 100%;
+    display: block;
+}
+
+/* Nhãn tiêu đề từng mục (1. Giới thiệu & 2. Liên hệ) */
+.nhan-muc {
+    background-color: #FFC0CB;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    padding: 4px 10px;
+    margin: 0 0 10px 0;
+}
+
+/* Danh sách mục 1 - Dấu chấm vuông đặc */
+.ds-vuong {
+    list-style-type: square;
+    line-height: 1.9;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-left: 25px;
+}
+
+/* Danh sách mục 2 - Dấu chấm tròn rỗng */
+.ds-tron {
+    list-style-type: circle;
+    line-height: 1.9;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-left: 25px;
+}
+
+/* Dòng bản quyền cuối cột phải */
+.ban-quyen {
+    color: #0000EE;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 15px;
+}
